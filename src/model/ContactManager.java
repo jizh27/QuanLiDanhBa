@@ -11,16 +11,14 @@ public class ContactManager {
         contacts = new ArrayList<>();
     }
 
-    public void addContact(Contact contact) {
-        // Kiểm tra xem số điện thoại đã có trong danh bạ chưa
-        for (Contact existingContact : contacts) {
-            if (existingContact.getPhoneNumber().equals(contact.getPhoneNumber())) {
-                System.out.println("Số điện thoại đã tồn tại trong danh bạ.");
-                return;
-            }
+    public boolean addContact(Contact contact) {
+        if (checkPhoneNumberExists(contact.getPhoneNumber())) {
+            return false; // Số điện thoại đã tồn tại
         }
         contacts.add(contact);
+        return true; // Thêm thành công
     }
+    
 
     public void removeContact(Contact contact) {
         contacts.remove(contact);
@@ -46,8 +44,9 @@ public class ContactManager {
     }
 
     public List<Contact> getAllContacts() {
-        return contacts;
+        return new ArrayList<>(contacts); // Trả về một bản sao của danh sách
     }
+    
     public boolean checkPhoneNumberExists(String phoneNumber) {
         return contacts.stream()
                 .anyMatch(contact -> contact.getPhoneNumber().equals(phoneNumber));

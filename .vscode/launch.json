@@ -5,40 +5,25 @@
             "type": "java",
             "name": "MainApp",
             "request": "launch",
-            "mainClass": "main.MainApp",
-            "projectName": "BTL01_b822e41d",
-            "vmArgs": "--module-path \"C:\\Users\\XUAN VINH\\Downloads\\openjfx-23.0.1_windows-x64_bin-sdk\\javafx-sdk-23.0.1\\lib\" --add-modules javafx.controls,javafx.fxml"
-        },
-        {
-            "type": "java",
-            "name": "MainApp",
-            "request": "launch",
             "mainClass": "MainApp",
             "projectName": "BTL01_b822e41d",
-             "vmArgs": "--module-path \"C:\\Users\\XUAN VINH\\Downloads\\openjfx-23.0.1_windows-x64_bin-sdk\\javafx-sdk-23.0.1\\lib\" --add-modules javafx.controls,javafx.fxml"
+            "vmArgs": "--module-path \"C:\\Users\\XUAN VINH\\Downloads\\openjfx-23.0.1_windows-x64_bin-sdk\\javafx-sdk-23.0.1\\lib\" --add-modules javafx.controls,javafx.fxml"
         },
         {
             "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}",
-             "vmArgs": "--module-path \"C:\\Users\\XUAN VINH\\Downloads\\openjfx-23.0.1_windows-x64_bin-sdk\\javafx-sdk-23.0.1\\lib\" --add-modules javafx.controls,javafx.fxml"
-        },
-        {
-            "type": "java",
-            "name": "App",
-            "request": "launch",
-            "mainClass": "App",
-            "projectName": "BTL01_b822e41d",
             "vmArgs": "--module-path \"C:\\Users\\XUAN VINH\\Downloads\\openjfx-23.0.1_windows-x64_bin-sdk\\javafx-sdk-23.0.1\\lib\" --add-modules javafx.controls,javafx.fxml"
         },
+
         {
             "type": "java",
             "name": "LoginDialog",
             "request": "launch",
             "mainClass": "LoginDialog.LoginDialog",
             "projectName": "BTL01_b822e41d",
-             "vmArgs": "--module-path \"C:\\Users\\XUAN VINH\\Downloads\\openjfx-23.0.1_windows-x64_bin-sdk\\javafx-sdk-23.0.1\\lib\" --add-modules javafx.controls,javafx.fxml"
+            "vmArgs": "--module-path \"C:\\Users\\XUAN VINH\\Downloads\\openjfx-23.0.1_windows-x64_bin-sdk\\javafx-sdk-23.0.1\\lib\" --add-modules javafx.controls,javafx.fxml"
         },
         {
             "type": "java",
@@ -46,7 +31,7 @@
             "request": "launch",
             "mainClass": "controler.Controler",
             "projectName": "BTL01_b822e41d",
-             "vmArgs": "--module-path \"C:\\Users\\XUAN VINH\\Downloads\\openjfx-23.0.1_windows-x64_bin-sdk\\javafx-sdk-23.0.1\\lib\" --add-modules javafx.controls,javafx.fxml"
+            "vmArgs": "--module-path \"C:\\Users\\XUAN VINH\\Downloads\\openjfx-23.0.1_windows-x64_bin-sdk\\javafx-sdk-23.0.1\\lib\" --add-modules javafx.controls,javafx.fxml"
         }
     ]
 }

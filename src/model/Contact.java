@@ -16,27 +16,22 @@ public class Contact {
         this.addedTime = LocalDateTime.now();
     }
 
-    // Getter cho tên đầy đủ
     public String getFullName() {
         return fullName;
     }
 
-    // Getter cho số điện thoại chính
     public String getPhoneNumber() {
         return phoneNumber;
     }
 
-    // Getter cho các số điện thoại khác
     public String getAdditionalNumbers() {
         return additionalNumbers;
     }
 
-    // Getter cho phân nhóm
     public String getGroup() {
         return group;
     }
 
-    // Getter cho thời gian thêm liên hệ
     public LocalDateTime getAddedTime() {
         return addedTime;
     }
