@@ -1,18 +1,21 @@
-## Getting Started
+## Phần mềm danh bạ điện thoại di động
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Đây là một ứng dụng danh bạ điện thoại di động cho phép người dùng quản lý thông tin liên lạc của họ. Ứng dụng cung cấp các chức năng: thêm, sửa, xóa và tìm kiếm danh bạ theo tên hoặc số điện thoại.
 
-## Folder Structure
+### Tính năng
+- Thêm liên hệ mới (bao gồm họ và tên, số điện thoại, và các thông tin khác như các số điện thoại bổ sung, phân nhóm, thời gian thêm vào danh bạ).
+- Chỉnh sửa thông tin liên hệ.
+- Xóa liên hệ.
+- Tìm kiếm liên hệ theo tên.
+- Tìm kiếm liên hệ theo số điện thoại.
 
-The workspace contains two folders by default, where:
+### Thông tin liên hệ
+Mỗi liên hệ bao gồm các thông tin sau:
+- **Họ và Tên**: Tên của người liên hệ.
+- **Số Điện Thoại**: Số điện thoại chính.
+- **Thông Tin Khác**: Bao gồm:
+  - Các số điện thoại bổ sung.
+  - Nhóm liên hệ (ví dụ: gia đình, bạn bè, công việc).
+  - Thời gian thêm vào danh bạ.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
