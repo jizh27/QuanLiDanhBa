@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Contacts>
+    <Contact>
+        <FullName>Nguyễn Văn A</FullName>
+        <PhoneNumber>0901234567</PhoneNumber>
+        <AdditionalNumbers>0912345678</AdditionalNumbers>
+        <Group>b</Group>
+        <AddedTime>2024-11-07T14:30</AddedTime>
+    </Contact>
+    <Contact>
+        <FullName>Trần Thị B</FullName>
+        <PhoneNumber>0987654321</PhoneNumber>
+        <AdditionalNumbers>0912345679</AdditionalNumbers>
+        <Group>b</Group>
+        <AddedTime>2024-11-07T15:00</AddedTime>
+    </Contact>
+    <Contact>
+        <FullName>Nguyễn Thị C</FullName>
+        <PhoneNumber>0123456565</PhoneNumber>
+        <AdditionalNumbers>1231231</AdditionalNumbers>
+        <Group>123123</Group>
+        <AddedTime>2024-11-07T20:07:32.934200400</AddedTime>
+    </Contact>
+    <Contact>
+        <FullName>Nguyễn van A</FullName>
+        <PhoneNumber>0343247234</PhoneNumber>
+        <AdditionalNumbers>123412421</AdditionalNumbers>
+        <Group>sdfsdf</Group>
+        <AddedTime>2024-11-07T20:08:43.825520900</AddedTime>
+    </Contact>
+</Contacts>
